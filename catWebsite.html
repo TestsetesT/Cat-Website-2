@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cat Website</title>
+    <link rel="icon" href="BlackCat.PNG" type="image/x-icon" />
+  </head>
+  <body>
+    <div style="text-align: center;">
+      <img src="BlackCat.PNG" />
+    </div>
+    <p>
+      Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching
+      attack your ankles chase the red dot, hairball run catnip eat the grass
+      sniff, just wants food, doesn't know how to eat food in a bowl, fluffy
+      soft belly baby fur angel steals your chair sleeps on it covers your chair
+      in fur.
+    </p>
+    <div style="text-align: center;">
+      <p>CLICK ME. I MEOW.</p>
+      <input type="button" value="MEOW" onclick="meow()" />
+      <audio id="audio" src="Meow.mp3"></audio>
+    </div>
+    <script>
+      function meow() {
+        var meowSound = document.getElementById("audio");
+        meowSound.play();
+      }
+    </script>
+  </body>
+</html>
